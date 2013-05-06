@@ -1,0 +1,37 @@
+###############################################
+
+Micro Soft Word Document Saves all content in XML in the background.
+
+################################################ 
+
+ Template
+ document 
+ body
+
+##############################
+ 
+1. I need to parse xml data with libxml-ruby (or) any xml-parser for Ruby 
+2. i need to parse xsml(styles/formating with) libxslt-ruby (or) any ruby xslt library
+3. i need to zip the all files 
+4. parse data
+
+
+############################################
+
+The following gems will also need to be installed:
+gem install -v=2.3.2 rails
+gem install libxml-ruby  
+gem install libxslt-ruby
+gem install zipruby
+gem install nokogiri
+
+Note: ignore the "Enclosing class" warnings for libxml-ruby
+
+
+
+###################################################
+
+There are sample files in the application folder C:\OpenXMLRubyExample\public\data that you can use to try out the application with:
+- transform.xslt
+- template.docx
+- HL7.xml)
